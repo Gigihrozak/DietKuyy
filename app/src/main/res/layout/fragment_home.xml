@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Home">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:padding="10dp"
+        android:background="@drawable/ic_bu"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:text="Diet Kuyy"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="Aplikasi Untuk Membantu Diet"
+        android:textStyle="bold" />
+   <Button
+       android:id="@+id/ideal"
+       style="?android:attr/borderlessButtonStyle"
+       android:foreground="?android:attr/selectableItemBackground"
+       android:layout_height="150dp"
+       android:layout_width="340dp"
+       android:layout_margin="10dp"
+       android:padding="10dp"
+       android:drawableTop="@drawable/ic_tibon"
+       android:background="@drawable/home"
+       android:text="Ideal Body"/>
+    <Button
+        android:id="@+id/timedate"
+        style="?android:attr/borderlessButtonStyle"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_height="150dp"
+        android:layout_width="340dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:drawableTop="@drawable/ic_healthy"
+        android:background="@drawable/home"
+        android:text="sports schedule"/>
+    <Button
+        android:id="@+id/food"
+        style="?android:attr/borderlessButtonStyle"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_height="150dp"
+        android:layout_width="340dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:drawableTop="@drawable/ic_food"
+        android:background="@drawable/home"
+        android:text="food calories"/>
+    <Button
+        android:id="@+id/listday"
+        style="?android:attr/borderlessButtonStyle"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_height="150dp"
+        android:layout_width="340dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:drawableTop="@drawable/ic_list"
+        android:background="@drawable/home"
+        android:text="List Day"/>
+    <Button
+        android:id="@+id/profil"
+        style="?android:attr/borderlessButtonStyle"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_height="150dp"
+        android:layout_width="340dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:drawableTop="@drawable/ic_sportswear"
+        android:background="@drawable/home"
+        android:text="Profil"/>
+</LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
