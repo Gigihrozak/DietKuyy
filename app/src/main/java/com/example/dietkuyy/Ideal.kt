@@ -5,8 +5,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import kotlinx.android.synthetic.main.fragment_ideal.view.*
 
 /**
  * A simple [Fragment] subclass.
@@ -18,6 +20,7 @@ class Ideal : Fragment() {
    private var resulttext: TextView? = null
     private var calculation: String? = null
     private var BMIresult: String? = null
+    lateinit var calculate: Button
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -28,10 +31,11 @@ class Ideal : Fragment() {
         weight = fragview.findViewById(R.id.weight)
         height = fragview.findViewById(R.id.height)
         resulttext = fragview.findViewById(R.id.result)
-
+        calculate= fragview.calculate_button
+        calculate.setOnClickListener { calculateBMI(it) }
         return fragview
     }
-    fun calculateBMI(view: View?) {
+   private  fun calculateBMI(view: View?) {
         val S1 = weight!!.text.toString()
         val S2 = height!!.text.toString()
         val weightValue = S1.toFloat()

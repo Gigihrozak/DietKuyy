@@ -76,9 +76,7 @@
                         android:background="@drawable/butten"
                         android:layout_height="wrap_content"
                         android:text="Calculate BMI"
-                        android:layout_marginTop="10dp"
-                        android:onClick="calculateBMI"
-                        tools:ignore="OnClick" />
+                        android:layout_marginTop="10dp" />
 
 
 
