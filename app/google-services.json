@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1094350995108",
+    "firebase_url": "https://dietkuy-80528.firebaseio.com",
+    "project_id": "dietkuy-80528",
+    "storage_bucket": "dietkuy-80528.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094350995108:android:880bd86dc7fb36678d3031",
+        "android_client_info": {
+          "package_name": "com.example.dietkuyy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094350995108-2rbr91kfni85jfhjdnjehrekj84bsfgn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dietkuyy",
+            "certificate_hash": "d129d739f57d082cc0ce06f6c5a40513c6e0b5c9"
+          }
+        },
+        {
+          "client_id": "1094350995108-takapacdo0vf29eqrff48ibk6nuvp46a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0no9sfHMuDueR6zuUv5JQ3FJdIN4z820"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094350995108-takapacdo0vf29eqrff48ibk6nuvp46a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

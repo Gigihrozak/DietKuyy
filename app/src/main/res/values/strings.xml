@@ -3,4 +3,32 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="title_onboarding_1">Welcome to Dietkuyy apps !</string>
+    <string name="description_onboarding_1">This application was created to guide you to a diet easily and practically</string>
+
+    <string name="title_onboarding_2">Sports!</string>
+    <string name="description_onboarding_2">This application contains sports that can burn calories</string>
+
+    <string name="title_onboarding_3">Doctor guide !</string>
+    <string name="description_onboarding_3">Guidance on how to diet safely for the body</string>
+
+    <string name="title_onboarding_4">Grafik Day!</string>
+    <string name="description_onboarding_4">There are also daily weight charts</string>
+
+    <string name="web_client">1094350995108-takapacdo0vf29eqrff48ibk6nuvp46a.apps.googleusercontent.com</string>
+
+    <string-array name="jenis_kl">
+        <item>Pilih Jenis Kelamin</item>
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+        <item>Lainnya</item>
+    </string-array>
+
+    <string name="start">start</string>
+    <string name="skip">Skip</string>
+    <string name="finish">finish</string>
+    <string name="next">next</string>
+    <string name="back">back</string>
 </resources>

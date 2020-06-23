@@ -10,14 +10,33 @@
     tools:context=".SplashScreen">
 
     <ImageView
-        android:src="@drawable/koy"
+        android:id="@+id/ho"
         android:layout_width="250dp"
-        android:layout_height="250dp" />
+        android:layout_height="250dp"
+        android:src="@drawable/ic_gym" />
+
     <TextView
+        android:id="@+id/hi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Loading..."
-        android:textColor="#fff"
-        android:textSize="30sp"
+        android:fontFamily="@font/bungee"
+        android:text="DietKuyy"
+        android:textColor="@color/hitam"
+        android:textSize="60sp"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/antic"
+        android:text="Application briefing about diet"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 </LinearLayout>

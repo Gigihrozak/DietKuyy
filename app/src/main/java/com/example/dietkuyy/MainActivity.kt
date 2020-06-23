@@ -15,6 +15,8 @@ import androidx.fragment.app.FragmentStatePagerAdapter
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 import com.example.dietkuyy.R.*
+import com.example.dietkuyy.login.LoginActivity
+import com.example.dietkuyy.login.ProfilFragment
 import kotlinx.android.synthetic.main.activity_main.*
 import androidx.navigation.ui.NavigationUI.setupWithNavController as setupWithNavController1
 
@@ -38,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         override fun getItem(position: Int): Fragment = when (position) {
             0 -> HomeFragment()
             1 -> FrutiFragment()
-            2 -> Food()
+            2 -> ProfilFragment()
             3 ->Ideal()
             4->List_Day()
 
@@ -58,7 +60,7 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         // Handle item selection
         if(item.itemId ==R.id.kuyy) {
-            startActivity(Intent(baseContext,logout::class.java));
+            startActivity(Intent(baseContext,LoginActivity::class.java));
         }
         return true
     }

@@ -55,7 +55,6 @@ class List_Day : Fragment() {
             override fun onResponse(call: Call<List<OlahPosItem>>, response:
             Response<List<OlahPosItem>>
             ) {
-                dismissLoading(swipeRefreshLayout)
                 when {
                     response.isSuccessful ->
                         when {
