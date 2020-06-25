@@ -7,8 +7,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="180dp"
-        android:gravity="center_vertical"
-        android:background="@color/transparent_blue">
+        android:gravity="center_vertical">
 
         <com.wang.avi.AVLoadingIndicatorView
             android:id="@+id/progress_bar"
@@ -16,8 +15,8 @@
             android:layout_height="50dp"
             android:layout_centerHorizontal="true"
             style="@style/AVLoadingIndicatorView"
-            app:indicatorName="LineScalePulseOutIndicator"
-            app:indicatorColor="@color/putih"
+            app:indicatorName="BallPulseIndicator"
+            app:indicatorColor="@color/hitam"
             android:layout_marginBottom="20dp"/>
 
         <TextView
@@ -27,8 +26,8 @@
             android:layout_height="wrap_content"
             android:textSize="18sp"
             android:fontFamily="@font/sf_bold"
-            android:text="Tunggu Sebentar..."
-            android:textColor="@color/putih"
+            android:text="wait a minute......."
+            android:textColor="@color/hitam"
             android:layout_centerHorizontal="true" />
 
     </RelativeLayout>

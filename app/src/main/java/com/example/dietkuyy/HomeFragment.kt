@@ -27,10 +27,6 @@ class HomeFragment : Fragment() {
 
         val bid = inflater.inflate(R.layout.fragment_home, container, false)
 
-
-
-
-
         return bid
     }
 

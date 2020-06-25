@@ -15,6 +15,7 @@ import androidx.fragment.app.FragmentStatePagerAdapter
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 import com.example.dietkuyy.R.*
+import com.example.dietkuyy.diet.beratbadan
 import com.example.dietkuyy.login.LoginActivity
 import com.example.dietkuyy.login.ProfilFragment
 import kotlinx.android.synthetic.main.activity_main.*
@@ -41,7 +42,7 @@ class MainActivity : AppCompatActivity() {
             0 -> HomeFragment()
             1 -> FrutiFragment()
             2 -> ProfilFragment()
-            3 ->Ideal()
+            3 ->beratbadan()
             4->List_Day()
 
             else -> HomeFragment()
@@ -54,7 +55,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         val inflater :MenuInflater = menuInflater
-         inflater.inflate(R.menu.menu, menu)
+        inflater.inflate(R.menu.menu, menu)
         return true
     }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
@@ -65,5 +66,4 @@ class MainActivity : AppCompatActivity() {
         return true
     }
 
-    }
-
+}

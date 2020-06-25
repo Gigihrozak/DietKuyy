@@ -54,7 +54,7 @@ private fun callApiGetFrutiUser() {
         override fun onResponse(call: Call<List<FrutiPosItem>>, response:
         Response<List<FrutiPosItem>>
         ) {
-            dismissLoading(swipeRefreshLayout)
+
             when {
                 response.isSuccessful ->
                     when {
