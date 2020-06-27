@@ -1,7 +1,7 @@
 # DietKuyy
 Android Kotlin
 # Link App
-https://drive.google.com/file/d/1iJnD-rsj6tXyLJuNLTXlj8TqBYdd9CjT/view?usp=sharing
+https://drive.google.com/file/d/1FxHbIyFzApycvz9PP53i0LhGZvj9tIPn/view?usp=sharing
 # Screenshot
 ![Screenshot_2020-05-18-05-51-32-56_dae95834376a57e26c275750d5bc7a16](https://user-images.githubusercontent.com/64683579/82162331-e40d0e80-98cd-11ea-8e04-29caf68eb968.png)
 ![Screenshot_2020-05-18-05-51-39-55_dae95834376a57e26c275750d5bc7a16](https://user-images.githubusercontent.com/64683579/82162332-e5d6d200-98cd-11ea-88dc-93543f530e51.png)
