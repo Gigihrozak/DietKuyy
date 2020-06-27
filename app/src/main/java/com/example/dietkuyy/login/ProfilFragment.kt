@@ -38,9 +38,7 @@ class ProfilFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        about_me.setOnClickListener {
-            startActivity(Intent(context,HomeFragment::class.java))
-        }
+
         val auth = FirebaseAuth.getInstance()
         if (auth.currentUser!!.uid.isNotEmpty()) {
             showLoading(context!!, swipe_profil)

@@ -11,7 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".screen.OnboardingFinishActivity"></activity>
+        <activity android:name=".rencana.room"></activity>
+        <activity android:name=".rencana.EditActivity" />
+        <activity android:name=".lihat" />
+        <activity android:name=".show" />
+        <activity android:name=".diary.show" />
+        <activity android:name=".diary.adddiary" />
+        <activity android:name=".diet.editberat" />
+        <activity android:name=".screen.OnboardingFinishActivity" />
         <activity android:name=".screen.OnboardingExample1Activity" />
         <activity android:name=".login.RegisterActivity" />
         <activity android:name=".login.LoginActivity" />
@@ -27,6 +34,12 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

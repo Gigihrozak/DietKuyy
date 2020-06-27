@@ -34,6 +34,7 @@ override fun onCreateView(
 ): View? {
 
     return inflater.inflate(R.layout.fragment_fruti, container, false)
+
 }
 override fun onViewCreated(
     view: View,

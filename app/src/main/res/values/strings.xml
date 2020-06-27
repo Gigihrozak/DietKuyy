@@ -4,7 +4,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-
+    <string name="title">Suksess</string>
     <string name="title_onboarding_1">Welcome to Dietkuyy apps !</string>
     <string name="description_onboarding_1">This application was created to guide you to a diet easily and practically</string>
 
@@ -31,4 +31,6 @@
     <string name="finish">finish</string>
     <string name="next">next</string>
     <string name="back">back</string>
+    <string name="nav_open">open</string>
+    <string name="nav_close">close</string>
 </resources>
